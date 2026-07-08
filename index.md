@@ -35,7 +35,7 @@ Aspiring Data Analyst with an NIT Karnataka engineering background and full-time
 * **Business Problem:** Regional managers lacked a centralized analytical tool to monitor target allocations alongside category performance, leading to unmapped margin deficits across territories.
 * **Technical Solution:** Developed an optimized Star Schema with a custom `CategoryYearKey` bridge table to enable accurate category-wise target allocation per Regional Manager across 3 distinct regions and 3 product categories. Deployed a manager-level execution matrix using `CALCULATE` + `ALLSELECTED` to isolate cumulative execution deficits. Designed all 3 dashboard pages using plain-language KPI labels, color-coded alerts, and YoY growth cards.
 * **Impact:** Empowered cross-functional stakeholders with instantaneous margin tracking tools, protecting corporate profitability parameters.
-* **Links:** 🔗 [View Code Repository](#) | 📊 [Launch Live Interactive Dashboard](#)
+* **Links:** 🔗 [View Code Repository](https://github.com/SatishBC/Executive-Performance-Margin-Hub) | 📊 [Launch Live Interactive Dashboard](#)
 
 ## 📜 Certifications
 * **Verified SQL Developer (Basic & Intermediate)** – HackerRank
