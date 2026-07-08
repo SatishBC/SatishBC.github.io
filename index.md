@@ -25,17 +25,17 @@ Aspiring Data Analyst with an NIT Karnataka engineering background and full-time
 * **Impact:** Delivered a dynamic Investor Committee interactive dashboard, completely eliminating the 5-6 day reporting lag down to near-real-time updates.
 * **Links:** 🔗 [View Code Repository](https://github.com/SatishBC/Omnichannel-Revenue-Marketing-Analytics) | 📊 [Launch Live Interactive Dashboard](https://www.novypro.com/) *(Add your NovyPro link here)*
 
-### 2. Advanced Relational Querying & Database Management (SQL)
-* **Focus:** Relational Database Design, Complex Window Functions, Data Joins & Unions.
-* **Description:** Designed and optimized relational databases to handle transactional operations. Wrote performance-optimized SQL queries utilizing complex join logics, Common Table Expressions (CTEs), and window functions to aggregate operational metrics efficiently while avoiding data cross-filtering blocks.
-* **Links:** 🔗 [View SQL Scripts Repository](https://github.com/SatishBC)
+### 2. FMCG Retail Performance Dashboard (Power BI & SQL)
+* **Business Problem:** Fragmented retail datasets suffered from significant data redundancy, making real-time sales performance and Year-over-Year (YoY) metrics difficult for management to evaluate cleanly.
+* **Technical Solution:** Engineered a robust Star Schema architecture connecting a 600K+ row fact table (`fact.sales`) seamlessly with 4 dimension tables. Authored complex analytical metrics using DAX filter modifiers including `CALCULATE` and `ALLSELECTED` to extract real-time cumulative sales and YoY growth scales. Integrated dynamic titles via `CONCATENATEX` paired with defensive `DIVIDE` logic to safely flag underperforming stores under a 19.5% profit bar.
+* **Impact:** Removed structural data redundancy and streamlined corporate performance tracking, delivering instant executive visibility across all regional store nodes.
+* **Links:** 🔗 [View Code Repository](#) | 📊 [Launch Live Interactive Dashboard](#)
 
-### 3. Exploratory Data Analysis & Automation (Python)
-* **Focus:** Data Cleaning, Structural Automation, Data Visualization.
-* **Description:** Built programmatic solutions using Python (Pandas, NumPy) to automate the ingestion, manipulation, and cleansing of raw operational data streams. Deployed descriptive visualization frameworks using Matplotlib and Seaborn to flag anomalies, target execution variances, and trend metrics.
-* **Links:** 🔗 [View Jupyter Notebooks](https://github.com/SatishBC)
-
----
+### 3. Executive Performance & Margin Protection Hub (Power BI & SQL)
+* **Business Problem:** Regional managers lacked a centralized analytical tool to monitor target allocations alongside category performance, leading to unmapped margin deficits across territories.
+* **Technical Solution:** Developed an optimized Star Schema with a custom `CategoryYearKey` bridge table to enable accurate category-wise target allocation per Regional Manager across 3 distinct regions and 3 product categories. Deployed a manager-level execution matrix using `CALCULATE` + `ALLSELECTED` to isolate cumulative execution deficits. Designed all 3 dashboard pages using plain-language KPI labels, color-coded alerts, and YoY growth cards.
+* **Impact:** Empowered cross-functional stakeholders with instantaneous margin tracking tools, protecting corporate profitability parameters.
+* **Links:** 🔗 [View Code Repository](#) | 📊 [Launch Live Interactive Dashboard](#)
 
 ## 📜 Certifications
 * **Verified SQL Developer (Basic & Intermediate)** – HackerRank
