@@ -29,7 +29,7 @@ Aspiring Data Analyst with an NIT Karnataka engineering background and full-time
 * **Business Problem:** Fragmented retail datasets suffered from significant data redundancy, making real-time sales performance and Year-over-Year (YoY) metrics difficult for management to evaluate cleanly.
 * **Technical Solution:** Engineered a robust Star Schema architecture connecting a 600K+ row fact table (`fact.sales`) seamlessly with 4 dimension tables. Authored complex analytical metrics using DAX filter modifiers including `CALCULATE` and `ALLSELECTED` to extract real-time cumulative sales and YoY growth scales. Integrated dynamic titles via `CONCATENATEX` paired with defensive `DIVIDE` logic to safely flag underperforming stores under a 19.5% profit bar.
 * **Impact:** Removed structural data redundancy and streamlined corporate performance tracking, delivering instant executive visibility across all regional store nodes.
-* **Links:** 🔗 [View Code Repository](#) | 📊 [Launch Live Interactive Dashboard](#)
+* **Links:** 🔗 [View Code Repository](https://github.com/SatishBC/Executive-Performance-Margin-Hub) | 📊 [Launch Live Interactive Dashboard](#)
 
 ### 3. Executive Performance & Margin Protection Hub (Power BI & SQL)
 * **Business Problem:** Regional managers lacked a centralized analytical tool to monitor target allocations alongside category performance, leading to unmapped margin deficits across territories.
